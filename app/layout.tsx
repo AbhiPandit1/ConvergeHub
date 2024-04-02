@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Convergence',
   description: 'Video Calling App',
   icons: {
-    icon: '/icon/logo.svg',
+    icon: '/icon/converge.png',
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            logoImageUrl: '/icons/yoom-logo.svg',
+            logoImageUrl: '/icons/converge.svg',
             socialButtonsVariant: 'iconButton',
           },
           variables: {
